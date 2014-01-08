@@ -12,7 +12,7 @@ public class Splash extends Activity{
 		// TODO Auto-generated method stub
 		//setContentView(R.drawable.k0);
 		super.onCreate(komal);
-		setContentView(R.layout.komal);
+		setContentView(R.layout.abeer);
 		sounds = MediaPlayer.create(Splash.this, R.raw.auon) ;
 		sounds.start();
 		Thread timer =  new Thread(){
